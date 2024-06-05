@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fdf0a67f6a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        
+        <nav>
+            <img src="Sanika.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certifications</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="row">
+            
+            <div class="coloum1">
+                <div class="header-text">
+                    <p></p>
+                    <h1>Hi, I'm <br><span>SANIKA PATIL</span></h1>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="SP.jpg">
+
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+<!-- For About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1><br><br>
+                <pre><span>Name:</span>  Sanika Bhagwan Patil</pre><br><br>
+                <pre><span>Profile:</span>  Computer Engineering Student</pre><br><br>
+                <pre><span>Email:</span>  sanikabhagwanpatil@gmail.com</pre><br><br>
+                <pre><span>Phone:</span>  9307207466</pre><br><br>
+
+            </div>
+            <div class="about-col-2">
+                <!-- <h1 class="sub-title">About Me</h1>
+                <p>Currently pursing a Bachelor of Engineering degree in Computer Engineering.</p> -->
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span></li><br>
+                        <li><span>CSS</span></li><br>
+                        <li><span>JavaScript</span></li><br>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Intern</span><br>Reliance Industries Limited, Nagothane - Internship</li><br>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Pillai HOC College of Engineering and Technology, Rasayani</span><br>Bachelor of Engineering - BE<br>Mumbai University<br>Dec 2021-Jun 2025<br>CGPA: 8.81</li><br>
+                        <li><span>SVM College, Pen</span><br>HSC - Science<br>2021<br>Percent: 91.33%</li><br>
+                        <li><span>Carmel High School, Pen</span><br>SSC<br>2019<br>Persent: 81%</li><br>
+                        
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- -----Certification----- -->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certificates-list">
+            <div>
+                <h2>HTML,CSS,JS</h2>
+                <p>LearnVern</p><br>
+                
+                <a href="https://drive.google.com/drive/folders/1H6WqbrqKGl34LGUEW0x3soZS9UzonDlN?usp=drive_link">Certificate</a>
+
+            </div>
+            <div>
+                <h2>Java Programming (Core and Advance)</h2>
+                <p>Disha Computer Institude</p><br>
+                
+                <a href="https://drive.google.com/file/d/1VvjLFz64QptuhRhgwxbzK_ua98Eq0l2g/view?usp=drive_link">Certificate</a>
+
+            </div>
+            <div>
+                <h2>C and C++ Programming</h2>
+                <p>Morya Computers(MCITER)</p><br>
+                
+                <a href="https://drive.google.com/file/d/1ogapOTSZSZZC1GsUllwPUT0DXlML66cT/view?usp=drive_link">Certificate</a>
+
+            </div>
+            </div>
+    </div>
+</div>
+
+<!-- -----Projects----- -->
+
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Music Player.png">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>Music player is a simple HTML and CSS project where I have took one song and added buttons and background pattern.</p>
+                    <a href="file:///C:/Users/Sanika%20Patil/Desktop/Music%20Player/index.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Text to Speech Converter.png">
+                <div class="layer">
+                    <h3>Text to Speech Converter</h3>
+                    <p>Text to Speech converter is made using HTML,CSS and JS.It ia a website which allows users to input text and have it read aloud using synthetic speech technology.</p>
+                    <a href="file:///C:/Users/Sanika%20Patil/Desktop/Text%20to%20Voice%20Converter/index.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="To-Do list.png">
+                <div class="layer">
+                    <h3>To-Do List</h3>
+                    <p>To-Do List is made using HTML,CSS and JS.It ia a website which help you stay organized by creating and managing digital lists of tasks.</p>
+                    <a href="file:///C:/Users/Sanika%20Patil/Desktop/To-Do%20List/index.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Typing Speed Test.png">
+                <div class="layer">
+                    <h3>Typing Speed Test Website</h3>
+                    <p>A typing speed test is a website used for improving the typing speed. Here we get the score of time left, mistakes, WPM and CPM.</p>
+                    <a href="file:///C:/Users/Sanika%20Patil/Desktop/Typing%20Speed%20Test/index.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----Contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>sanikabhagwanpatil@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9307207466</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sanika-patil-646a371b4"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_sanu_2712?igsh=MWQzcnF4YnJkY2J2cQ=="><i class="fab fa-instagram"></i></a>
+                    
+
+                </div>
+                <a href="https://drive.google.com/file/d/1mFaY2IUvrPSThOSy-eDLLA6CeXgFTSfw/view?usp=drive_link"download class="btn btn2"> Resume</a>
+            </div>
+        </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+  <!-- <script scr="script.js"></script>   -->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(var tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(var tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
